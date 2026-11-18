@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Trained model folders (hosted on Hugging Face)
+my-story-model/
+my-story-model-v2/
+my-story-model-v3/
+
+# Dataset and training outputs
+dataset/
+results/
+results-v2/
+
+# Temporary files
+*.log
+.DS_Store
